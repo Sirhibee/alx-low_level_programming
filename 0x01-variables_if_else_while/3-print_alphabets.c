@@ -6,9 +6,9 @@
 
 int main(void)
 {
-	char c;
+	char lowercase;
 
-	char d;
+	char uppercase;
 
 	c = 'a';
 	d = 'A';
@@ -24,6 +24,6 @@ int main(void)
 			putchar(d);
 			d++;
 		}
-putchar("\n");
+putchar('\n');
 return (0);
 }
