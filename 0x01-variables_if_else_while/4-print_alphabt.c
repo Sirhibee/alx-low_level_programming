@@ -5,9 +5,13 @@
  */
 int main(void)
 {
+	char c;
+
+	c = 'a';
 	int num;
 	while (num < 10)
 	{
+		(c <= 'z')
 		printf("%d", num);
 		num += 1;
 	}
