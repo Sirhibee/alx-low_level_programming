@@ -1,14 +1,12 @@
 #include <main.h>
 #include <unistd.h>
-
 /**
- * print_alphabet - Entry point
- * Return: 0
+ * print_alphabet - print all alphabet in lowercase
  */
 
 void print_alphabet(void)
 {
-	char c = 'a'a;
+	char c = 'a';
 
 	while (c <= 'z')
 	{
@@ -16,5 +14,5 @@ void print_alphabet(void)
 		c++;
 	}
 	_putchar('\n');
-return (0);
+
 }
