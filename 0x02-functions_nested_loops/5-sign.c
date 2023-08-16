@@ -1,20 +1,25 @@
 #include "main.h"
-/**
- * main - check the code.
- * Return: Always 0.
- */
-int main(void)
-{
-	int r;
 
-	r = _isalpha('H');
-	_putchar(r + '0');
-	r = _isalpha('o');
-	_putchar(r + '0');
-	r = _isalpha(108);
-	_putchar(r + '0');
-	r = _isalpha(';');
-	_putchar(r + '0');
-	_putchar('\n');
-	return (0);
+/**
+ * print_sign - Printys sum
+ * @n: The nmber
+ * Return: 1 for all
+ */
+int print_sign(int n)
+{
+	if (n > 0)
+	{
+		_putchar(43);
+		return (1);
+	}
+	else if (n < 0)
+	{
+		_putchar(45);
+		return (-1);
+	}
+	else
+	{
+		_putchar(48);
+		return (0);
+	}
 }
